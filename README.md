@@ -129,7 +129,7 @@ ping 10.14.24.10 source 10.14.14.2
 | Recurso | Enlace |
 |---------|--------|
 | Repositorio Principal | [Enmafs/NetSec](https://github.com/Enmafs/NetSec) |
-| Script de configuración | [`Lab05_IPSec_IKEv2_RouteBased_VTI.txt`](./Lab05_IPSec_IKEv2_RouteBased_VTI.txt) |
+| Script de configuración | [`Lab05_IPSec_IKEv2_RouteBased_VTI.txt`](./EnmanuelFelizSoto_2025-1402_IPSec_IKEv2_RouteBased_VTI_P3.txt) |
 | Video demostración | 🎬 **[PENDIENTE — agregar link de YouTube]** |
 
 ---
