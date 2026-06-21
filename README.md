@@ -51,8 +51,8 @@ VPN basada en rutas usando VTI. Más flexible que Policy-Based, permite routing 
 ### Dirección Túnel
 | Endpoint | IP Tunnel |
 |----------|-----------|
-| R1-S1 Tunnel0 | 14.2.10.1/30 |
-| R4-S2 Tunnel0 | 14.2.10.2/30 |
+| R2 Tunnel0 | 14.2.10.1/30 |
+| R5 Tunnel0 | 14.2.10.2/30 |
 
 ---
 
