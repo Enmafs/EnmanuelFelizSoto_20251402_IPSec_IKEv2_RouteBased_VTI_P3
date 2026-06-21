@@ -161,7 +161,7 @@ interface Ethernet0/1
  int e0/1.10
  description GTW VLAN10
  encapsulation dot1q 10
- ip address 30.30.30.1 255.255.255.0
+ ip address 10.10.10.1 255.255.255.0
  no shutdown
 !
 int e0/1.20
@@ -172,7 +172,7 @@ int e0/1.20
 !
 int e0/1.100
  description VLAN NATIVE
- encapsulation dot1q 1000 native
+ encapsulation dot1q 1 native
 !
 ip route 0.0.0.0 0.0.0.0 20.25.1.9
 ip route 30.30.30.0 255.255.255.0 Tunnel0
