@@ -170,10 +170,6 @@ int e0/1.20
  ip address 20.20.20.1 255.255.255.0
  no shutdown
 !
-int e0/1.100
- description VLAN NATIVE
- encapsulation dot1q 1 native
-!
 ip route 0.0.0.0 0.0.0.0 20.25.1.9
 ip route 30.30.30.0 255.255.255.0 Tunnel0
 !
@@ -199,7 +195,7 @@ end
 
 ! ---- Verificacion ----
 ping 14.2.10.1 source 14.2.10.2
-ping 30.30.30.10 source 30.30.30.10
+ping 30.30.30.10 source 10.10.10.10
 show crypto ikev2 sa
 show crypto ipsec sa
 show interface Tunnel0
