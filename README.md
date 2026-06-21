@@ -80,13 +80,16 @@ El script completo de configuración se encuentra en:
 ### 1. Cargar configuración en PNetLab
 ```
 # Aplicar configuración en cada dispositivo en el orden:
-# 1. ISP → 2. R1-S1 → 3. R2 → 4. R5
+# 1. ISP → 2. R1-S1 → 3. R2 → 4. R5 → 5. SW-R5
 ```
 
 ### 2. Verificar la VPN
 
 ```
 show crypto isakmp sa
+```
+```
+show crypto ikev2 sa
 ```
 ```
 show crypto ipsec sa
@@ -106,6 +109,8 @@ ping 14.2.10.2 source 14.2.10.1
 
 > 📸 **[INSERTAR CAPTURA: show crypto isakmp sa]**
 
+<!-- Captura mostrando el estado QM_IDLE / ESTABLISHED -->
+> 📸 **[INSERTAR CAPTURA: show crypto isakmp sa]**
 <!-- Captura mostrando el estado QM_IDLE / ESTABLISHED -->
 
 > 📸 **[INSERTAR CAPTURA: show crypto ipsec sa]**
